@@ -46,38 +46,43 @@
 						<h2>O que há de novo</h2>
 					</header>
 					<div class="content">
-						<div class="media">
-							<a href="images/fulls/15.jpg"><img src="images/thumbs/15.jpg" alt=""
-									title="This right here is a caption." /></a>
+						<div class="media all people">
+							<a href="images/fulls/15.jpg" ></a><img src="images/thumbs/15.jpg" alt=""
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all place">
 							<a href="images/fulls/16.jpg"><img src="images/thumbs/16.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all place">
 							<a href="images/fulls/17.jpg"><img src="images/thumbs/17.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all thing">
 							<a href="images/fulls/18.jpg"><img src="images/thumbs/18.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all people">
 							<a href="images/fulls/19.jpg"><img src="images/thumbs/19.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all place">
 							<a href="images/fulls/20.jpg"><img src="images/thumbs/20.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all thing">
 							<a href="images/fulls/21.jpg"><img src="images/thumbs/21.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
-						<div class="media">
+						<div class="media all place">
 							<a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" alt=""
-									title="This right here is a caption." /></a>
+									title=" " /></a>
 						</div>
+						<div class="media all people">
+							<a href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" alt=""
+									title=" " /></a>
+						</div>
+						
 					</div>
 					<footer>
 						<a href="gallery.html" class="button big">Galeria</a>
@@ -149,6 +154,7 @@
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="assets/js/jquery.poptrox.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
