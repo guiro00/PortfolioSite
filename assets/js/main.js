@@ -10,11 +10,10 @@
 
 	$(function () {
 
-		$('#content').poptrox({
-			usePopupCaption:true
-		});
-	});
-		
+
+				
+		var $window = $(window),
+			$body = $('body');
 
 		// Disable animations/transitions until the page has loaded.
 		$body.addClass('is-loading');
@@ -37,7 +36,20 @@
 		});
 
 		// Scrolly.
-		$('.scrolly').scrolly()
+		$('.scrolly').scrolly();
+
+		
+
+		// Gallery.
+		$('.gallery').each(function () {
+
+			var $gallery = $(this),
+				$content = $gallery.find('.content');
+
+			// Poptrox.
+				$content.poptrox({
+				usePopupCaption:true
+				});
 				
 
 			
