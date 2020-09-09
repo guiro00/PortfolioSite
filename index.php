@@ -133,6 +133,19 @@
 			</footer>
 		</section>
 	</div>
+	<!-- Core Stylesheet -->
+<link href="dist/css/nanogallery2.min.css" rel="stylesheet" />
+<link href="dist/css/nanogallery2.woff.min.css" rel="stylesheet" />
+<!-- jQuery -->
+<script src="/path/to/cdn/jquery.min.js"></script>
+<!-- All In One JavaScript -->
+<script src="dist/jquery.nanogallery2.min.js"></script>
+<!-- Or Load Core JavaScript -->
+<script src="dist/jquery.nanogallery2.core.min.js"></script>
+<!-- And Optional Modules -->
+<script src="dist/jquery.nanogallery2.data_flickr.min.js"></script>
+<script src="dist/jquery.nanogallery2.data_google3.min.js"></script>
+<script src="dist/jquery.nanogallery2.data_nano_photos_provider2.min.js"></script>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>

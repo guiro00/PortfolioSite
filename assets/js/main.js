@@ -10,8 +10,11 @@
 
 	$(function () {
 
-		var $window = $(window),
-			$body = $('body');
+		$('#content').poptrox({
+			usePopupCaption:true
+		});
+	});
+		
 
 		// Disable animations/transitions until the page has loaded.
 		$body.addClass('is-loading');
@@ -34,18 +37,10 @@
 		});
 
 		// Scrolly.
-		$('.scrolly').scrolly();
+		$('.scrolly').scrolly()
+				
 
-		// Gallery.
-		$('.gallery').each(function () {
-
-			var $gallery = $(this),
-				$content = $gallery.find('.content');
-
-			// Poptrox.
-			$content.poptrox({
-				usePopupCaption: true
-			});
+			
 
 			// Tabs.
 			$gallery.each(function () {
@@ -82,6 +77,7 @@
 									.queue(function (next) {
 										$this.fadeIn();
 										next();
+
 									});
 
 						});
@@ -94,5 +90,6 @@
 		});
 
 	});
+	
 
 })(jQuery);
