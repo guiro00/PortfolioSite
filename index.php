@@ -128,7 +128,7 @@
 			<footer id="footer">
 				<div class="copyright">
 					&copy; Web Designer: <a href="https://www.facebook.com/guilherme.nathaniel.35/">Guilherme
-						Valentine</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
+						Valentine</a>. Images: <a href="#">Fotografia Própria</a>.
 				</div>
 			</footer>
 		</section>
