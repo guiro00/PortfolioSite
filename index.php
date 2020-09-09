@@ -46,6 +46,7 @@
 						<h2>O que há de novo</h2>
 					</header>
 					<div class="content">
+						
 						<div class="media all people">
 							<a href="images/fulls/15.jpg" ></a><img src="images/thumbs/15.jpg" alt=""
 									title="#01 " /></a>
@@ -154,7 +155,6 @@
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="assets/js/jquery.poptrox.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
