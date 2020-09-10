@@ -47,7 +47,7 @@
 				$content = $gallery.find('.content');
 
 			// Poptrox.
-				$content.poptrox({
+				$('#content').poptrox({
 				usePopupCaption:true
 				});
 				
