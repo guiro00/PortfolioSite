@@ -837,7 +837,13 @@
 			-webkit-justify-content: -webkit-flex-start;
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
+			
+		}
+
+		.content{
+
 			width: 100%;
+
 		}
 
 			.gallery .content .media {
