@@ -150,6 +150,8 @@
 
 	strong, b {
 		font-weight: 700;
+		line-height: 2.5;
+		margin: 0 0 1em 0;
 	}
 
 	em, i {
@@ -835,6 +837,7 @@
 			-webkit-justify-content: -webkit-flex-start;
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
+			width: 100%;
 		}
 
 			.gallery .content .media {
@@ -1271,6 +1274,13 @@
 			@media screen and (max-width: 980px) {
 
 				section .columns.double .column, article .columns.double .column {
+					width: 100%;
+				}
+
+			}
+			@media screen and (max-width: 980px) {
+
+				section .columns {
 					width: 100%;
 				}
 
